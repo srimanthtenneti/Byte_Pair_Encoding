@@ -17,3 +17,5 @@ This encoding style implements the Byte Pair Encoding scheme (BPE) which starts 
 #### Note !!! 
 
 I have uploaded a pickled rule deck for the dataset I ran BPE on for reference. 
+
+Kaggle Dataset : https://www.kaggle.com/datasets/thedevastator/nlp-mental-health-conversations
