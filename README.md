@@ -10,7 +10,7 @@ This encoding style is very simple. We pick each unique character in a text corp
 
 ### Approach 2 
 
-This encoding style implements the Byte Pair Encoding scheme (BPE) which starts with the same base character vocabulary from the text corpus but builds higher level tokens by aggregating the base tokens based on occurance of token pairs. My implementation uses the following dataset from kaggle and runs bpe for 500 iterations. The aforementioned reduction in sequence length is depicted via the image below. 
+This encoding style implements the Byte Pair Encoding scheme (BPE) which starts with the same base character vocabulary from the text corpus but builds higher level tokens by aggregating the base tokens based on frequency of token pairs. My implementation uses the following dataset from kaggle and runs bpe for 500 iterations. The aforementioned reduction in sequence length is depicted via the image below. 
 
 <img width="1121" alt="BPE" src="https://github.com/srimanthtenneti/Byte_Pair_Encoding/assets/40752683/875e02d3-2f9c-4f96-bfb0-ab295328ce2a">
 
